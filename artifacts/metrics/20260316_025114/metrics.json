@@ -1,0 +1,10 @@
+{
+    "rmse": 1329828.358631541,
+    "mae": 975460.3369215832,
+    "r2": 0.6501298078319756,
+    "model_name": "gradient_boosting",
+    "_test_best_model_name": "gradient_boosting",
+    "_test_best_score": 0.6501298078319756,
+    "_test_best_metric_name": "r2",
+    "_optuna_selected": "gradient_boosting"
+}
