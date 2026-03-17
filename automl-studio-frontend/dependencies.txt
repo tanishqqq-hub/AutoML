@@ -1,0 +1,35 @@
+# AutoML Studio — Frontend Dependencies
+# Node.js 18+ required
+#
+# Install all dependencies:
+#   npm install
+#
+# These are managed by package.json.
+# This file is for reference only.
+
+# ── Core ──────────────────────────────────────────────────────────
+react@^18.2.0
+react-dom@^18.2.0
+
+# ── Routing ───────────────────────────────────────────────────────
+react-router-dom@^6.22.0
+
+# ── Data Fetching + API ───────────────────────────────────────────
+@tanstack/react-query@^5.28.0       # polling, caching, async state
+axios@^1.6.7                        # HTTP client
+
+# ── State Management ──────────────────────────────────────────────
+zustand@^4.5.2                      # global state store
+
+# ── Charts ────────────────────────────────────────────────────────
+recharts@^2.12.2                    # bar charts on Results page
+
+# ── Icons ─────────────────────────────────────────────────────────
+lucide-react@^0.383.0               # all UI icons
+
+# ── Dev Dependencies ──────────────────────────────────────────────
+vite@^5.2.8                         # build tool + dev server
+@vitejs/plugin-react@^4.2.1         # React fast refresh
+tailwindcss@^3.4.3                  # utility CSS
+postcss@^8.4.38                     # CSS processing
+autoprefixer@^10.4.19               # CSS vendor prefixes
