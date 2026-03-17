@@ -1,0 +1,32 @@
+# Core
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+joblib==1.4.2
+
+# ML Models
+xgboost==2.0.3
+lightgbm==4.3.0
+
+# Hyperparameter Optimization
+optuna==3.6.1
+
+# Experiment Tracking
+mlflow==2.13.0
+
+# Data Profiling
+sweetviz==2.3.1
+
+# API
+fastapi==0.111.0
+uvicorn==0.30.1
+pydantic==2.7.1
+
+# Dashboard
+streamlit==1.35.0
+
+# Config
+pyyaml==6.0.1
+
+# Utilities
+pathlib2==2.3.7
